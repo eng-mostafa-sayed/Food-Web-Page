@@ -1,0 +1,367 @@
+<style>
+            body{
+                margin:0;
+                
+                
+                
+            }
+            /* header page */
+            .background{
+                
+                height: 700px;
+                margin:-7px;
+                background-image: url(foodiesfeed.com_healthy-ingredients-for-salad-with-bread.jpg);
+                background-size: cover;
+                background-position: left;
+                
+                
+
+                
+            }
+           
+            .header{
+               
+                height: 100px;
+                width: 1200px;
+                margin: auto;
+                
+                position: relative;
+               
+                
+              
+                
+                
+                }
+            .blog{
+                width: 110px;
+                padding: 0px;
+                font-family: monospace;
+                font-size: 40px;
+                position: absolute;
+                bottom: 30;
+                color: #efe6d8;
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 25%;
+                overflow: hidden;
+                
+                
+   
+                
+           
+                
+            }
+            .home{
+                float: right;
+                list-style: none;
+                padding: 0;
+                margin: 0px;
+                 position: absolute;
+                right: 180;
+                bottom: 30;
+                font-size: 20px;
+                color: #1d0b03;
+            
+                
+                
+                
+            }
+            ul li{
+                float: left;
+                padding: 5px;
+                margin:5px;
+              
+            }
+            ul li:hover{
+                color: #fff;
+                
+            }
+            .face{
+
+                float: right;
+                list-style: none;
+                margin-top: 4px;
+                margin-right: 
+                
+
+            }
+hr{    max-width: 300px;
+}
+
+
+            .blog:hover{
+                color: #dd2983
+            }
+            .h{
+                width: 1200;
+                margin: auto;
+                
+                
+            }
+            
+            input{
+                width: 400;
+                height: 50;
+                font-size: 20px;
+                border: 2px solid#864b18;
+                position: absolute;
+                top: 550;
+                left:100;
+                border-radius: 15px;
+            }
+            .A{
+                color: #c01bde;
+                font-size: 20
+            }
+            
+            /*second part in page */
+            .left{
+                float: left;
+                margin-top: 90;
+                width: 550;
+                height: 700;
+                margin-left: 70px;
+                 background-color: rgb(220, 207, 199);
+                border-radius: 20px;
+
+            }
+            .right{
+                 float: right;
+                margin: auto;
+                margin-top: 90;
+                width: 550;
+                height: 700;
+                margin-right: 70px;
+                  background-color: rgb(220, 207, 199);
+                border-radius: 20px;
+
+            }
+
+            .types{
+                position: relative;
+                left: 200px;
+                top:10;
+                width: 150px;
+                height: 150px;
+                border-radius:100% ;
+                background-image: url(foodiesfeed.com_sunny-side-up-breakfast-pan.jpg);
+                background-size: cover;
+
+                background-position: center;
+            }
+
+            .type{
+
+                position: relative;
+                left: 200px;
+                top:10;
+                width: 150px;
+                height: 150px;
+                border-radius:100% ;
+                background-image: url(foodiesfeed.com_grilled-salmon-cubes-with-vegetables.jpg);
+                background-size: cover;
+                background-position: center;}
+            .article1{
+
+                width: 300px;
+                height: 150px;
+                margin-top: 50px;
+                margin-left: 100px;
+                padding: 15px
+
+            }
+            .article1 h2{
+                text-align: center;
+                font-family: cursive;
+                display: block;
+                margin-top: 1px;
+            }
+            .article1 h2:hover{
+                color: aliceblue
+            }
+            .article1 p{
+                color: rgb(132, 89, 62)
+            }
+            .article1 p:hover{
+                color: #ce1a66
+            }
+            .technique h3{
+                margin-left: 100px;
+            }
+            .technique{
+                border: 1px solid#e22a2a;
+                width: 400px;
+                height: 25px;
+                margin: auto;
+
+
+            }
+
+            .float .technique div span{
+                background-color:#2dcc70;
+                height:25px;
+                display:block;
+                line-height:25px;
+                text-align:right;
+                color:#fff;
+                font-weight:bold;
+            }
+            .float .technique div span:hover{
+                color: black
+            }
+            .float h3{
+                margin-left: 70px;
+            }
+            .float h3:hover{
+    color: aliceblue;
+}   
+            
+              /*3 part in page */
+                        
+            .picture1{
+
+                height: 300px;
+                width: 300;
+                margin-top: 850px;
+                margin-left: 70px;
+                position: relative;
+                top: -15px;
+
+                background-image: url(foodiesfeed.com_juicy-burger-in-a-vibrant-interior.jpg);
+                background-size: cover;
+
+                           
+
+                }
+            .picture2{
+
+                height: 300px;
+                width: 300;
+                margin-top:-315;
+                margin-left: 380px;
+                position: absolute;
+                background-image: url(foodiesfeed.com_red-apples-with-other-red-fruit.jpg);
+                background-size: cover;
+
+                            background-position: center;
+                    border-radius: 20px;
+
+
+
+                }
+               .picture3{
+
+                height: 300px;
+                width: 300;
+                margin-top:-315;
+                   margin-left: 690px;
+                   position: absolute;
+                   background-image: url(foodiesfeed.com_spinach-pomegranate-and-chicken-salad.jpg);
+                   background-size: cover;
+
+                            background-position: center;
+                       border-radius: 20px;
+
+            }
+            .picture{
+                height: 500px;
+                width: 1000px;
+                margin: auto;
+                position: relative;
+            }
+            .picture4{
+                 height: 300px;
+                width: 300;
+                margin-top: px;
+                margin-left: 70px;
+                position: relative;
+                top: -15px;
+
+                background-image: url(foodiesfeed.com_juicy-beef-steak-close-up.jpg);
+                background-size: cover;
+
+                            background-position: center;
+                border-radius: 20px;
+            }
+            .picture5{
+                height: 300px;
+                width: 300;
+                margin-top:-315;
+                margin-left: 380px;
+                position: absolute;
+                background-image: url(foodiesfeed.com_grilled-headless-sardines.jpg);
+                background-size: cover;
+
+                            background-position: center;
+                    border-radius: 20px;
+
+            }
+            .picture6{
+                   height: 300px;
+                width: 300;
+                margin-top:-315;
+                   margin-left: 690px;
+                   position: absolute;
+                   background-image: url(foodiesfeed.com_high-protein-brunch-with-poached-eggs-beans-and-bacon.jpg);
+                   background-size: cover;
+
+                            background-position: center;
+                       border-radius: 20px;
+            }
+            /* 4 part page*/
+.end{
+    
+    width: 1000px;
+    height: 400px;
+    font-family: cursive;
+    margin-top: 150px;
+    margin-left: 120;
+    padding:0px;
+    background-color:rgba(124, 106, 106, 0.6);
+    border-radius: 20px;
+    position: relative;
+   
+
+}  
+.end h3{
+    padding-left: 7px;
+    font-family: cursive;
+    
+}
+.end h3:hover{
+    color: azure;
+}
+.touch{
+    
+    height: 100px;
+    width: 900px;
+    margin-left:20px;
+    
+}
+.touch:hover{
+    color: azure
+}
+.message{
+    margin-top: 50px;
+    margin-left: 320px;
+    border: 2px solid#8a8e81;
+    width: 300px;
+    height: 150px;
+    background-color:rgb(108, 96, 70);
+    border-radius: 20px;
+    padding-left: 12px;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #646442;
+    font-family: fantasy;
+    border: 1px solid #111;
+}
+button:hover{color: azure}
+
+
+
+
+           
+        </style>
